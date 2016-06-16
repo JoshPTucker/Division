@@ -19,7 +19,13 @@ class Division {
   System.out.println("Result = " + result);
   }
   catch(ArithmeticException e ){
-  System.out.print("You Cant divide by 0");
- }
+  System.out.println("You Cant divide by 0");
   }
+  
+  finally {
+    System.out.println("finally block will execute.");
+  	}
+  
+  }
+
   }
